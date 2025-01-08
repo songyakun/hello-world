@@ -1,0 +1,27 @@
+### **Maven项目的标准目录结构**
+
+- src
+    - main
+        - **java**     源文件
+        - **resources**   资源文件
+        - filters 资源过滤文件
+        - config 配置文件
+        - scripts 脚本文件
+        - webapp web应用文件
+    - test
+        - **java**   测试源文件
+        - resources 测试资源文件
+        - filters 测试资源过滤文件
+    - it 集成测试
+    - assembly assembly descriptors
+    - site Site
+- target
+    - generated-sources
+    - classes
+    - generated-test-sources
+    - test-classes
+    - xxx.jar
+- **pom.xml**
+- LICENSE.txt
+- NOTICE.txt
+- README.txt
